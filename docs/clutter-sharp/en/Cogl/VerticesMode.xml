@@ -1,0 +1,80 @@
+<Type Name="VerticesMode" FullName="Cogl.VerticesMode">
+  <TypeSignature Language="C#" Value="public enum VerticesMode" />
+  <AssemblyInfo>
+    <AssemblyName>clutter-sharp</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    
+    
+    
+    
+    
+    
+    <Member MemberName="LineLoop">
+      <MemberSignature Language="C#" Value="LineLoop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="Lines" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="LineStrip">
+      <MemberSignature Language="C#" Value="LineStrip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="Points">
+      <MemberSignature Language="C#" Value="Points" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="TriangleFan">
+      <MemberSignature Language="C#" Value="TriangleFan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="Triangles">
+      <MemberSignature Language="C#" Value="Triangles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="TriangleStrip">
+      <MemberSignature Language="C#" Value="TriangleStrip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Cogl.VerticesMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member>
+  </Members>
+</Type>

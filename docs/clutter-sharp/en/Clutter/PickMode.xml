@@ -1,0 +1,49 @@
+<Type Name="PickMode" FullName="Clutter.PickMode">
+  <TypeSignature Language="C#" Value="public enum PickMode" />
+  <AssemblyInfo>
+    <AssemblyName>clutter-sharp</AssemblyName>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>GLib.GType(typeof(Clutter.PickModeGType))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    
+    
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Clutter.PickMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Clutter.PickMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member><Member MemberName="Reactive">
+      <MemberSignature Language="C#" Value="Reactive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        
+      <AssemblyVersion>0.9.0.0</AssemblyVersion><AssemblyVersion>1.0.0.0</AssemblyVersion></AssemblyInfo>
+      <ReturnValue><ReturnType>Clutter.PickMode</ReturnType></ReturnValue>
+      <Docs><summary>To be added.</summary></Docs>
+    </Member>
+  </Members>
+</Type>

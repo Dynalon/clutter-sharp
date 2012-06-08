@@ -1,0 +1,34 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="clutter-gtk-sharp" Version="1.0.0.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="">
+      <Type Name="Patch" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Clutter">
+      <Type Name="Embed" Kind="Class" />
+      <Type Name="GtkTextureError" Kind="Enumeration" />
+      <Type Name="GtkUtil" Kind="Structure" />
+      <Type Name="Scrollable" Kind="Interface" />
+      <Type Name="ScrollableAdapter" Kind="Class" />
+      <Type Name="ScrollableImplementor" Kind="Interface" />
+      <Type Name="Viewport" Kind="Class" />
+      <Type Name="Zoomable" Kind="Interface" />
+      <Type Name="ZoomableAdapter" Kind="Class" />
+      <Type Name="ZoomableImplementor" Kind="Interface" />
+    </Namespace>
+    <Namespace Name="GtkSharp.ClutterSharp">
+      <Type Name="ObjectManager" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>clutter-gtk-sharp</Title>
+</Overview>

@@ -1,0 +1,11 @@
+<configuration>
+  <dllmap 
+    dll="libclutter-gtk-win32-0.10-0.dll"
+    target="libclutter-gtk-@CLUTTER_GTK_API_VERSION@.so.0"
+  />
+  <dllmap 
+    dll="libclutter-win32-1.0-0.dll"
+    target="libclutter-@CLUTTER_BACKEND@-@CLUTTER_API_VERSION@.so.0"
+  />
+  <dllmap dll="libgobject-2.0-0.dll" target="libgobject-2.0.so.0"/>
+</configuration>

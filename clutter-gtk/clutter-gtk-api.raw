@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<api parser_version="2">
+  <!--
+
+        This file was automatically generated.
+        Please DO NOT MODIFY THIS FILE, modify .metadata files instead.
+
+-->
+  <namespace name="Clutter" library="libclutter-gtk-win32-0.10-0.dll">
+    <enum name="GtkInitError" cname="ClutterGtkInitError" type="enum">
+      <member cname="CLUTTER_INIT_ERROR_LAST" name="Last" value="Internal" />
+      <member cname="CLUTTER_INIT_ERROR_GTK" name="Gtk" value="CLUTTER_INIT_ERROR_LAST - 1" />
+    </enum>
+    <enum name="GtkTextureError" cname="ClutterGtkTextureError" type="enum">
+      <member cname="CLUTTER_GTK_TEXTURE_INVALID_STOCK_ID" name="InvalidStockId" />
+      <member cname="CLUTTER_GTK_TEXTURE_ERROR_LAST" name="ErrorLast" />
+    </enum>
+    <interface name="Scrollable" cname="GtkClutterScrollable">
+      <class_struct cname="GtkClutterScrollableIface">
+        <field name="ParentIface" cname="parent_iface" type="GTypeInterface" />
+        <method vm="set_adjustments" />
+        <method vm="get_adjustments" />
+      </class_struct>
+      <property name="" cname="" type="ginterface" />
+      <property name="" cname="" type="ginterface" />
+      <virtual_method name="SetAdjustments" cname="set_adjustments">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment*" name="h_adjust" />
+          <parameter type="GtkAdjustment*" name="v_adjust" />
+        </parameters>
+      </virtual_method>
+      <virtual_method name="GetAdjustments" cname="get_adjustments">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment**" name="h_adjust" />
+          <parameter type="GtkAdjustment**" name="v_adjust" />
+        </parameters>
+      </virtual_method>
+      <method name="GetAdjustments" cname="gtk_clutter_scrollable_get_adjustments">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment**" name="h_adjust" />
+          <parameter type="GtkAdjustment**" name="v_adjust" />
+        </parameters>
+      </method>
+      <method name="GetType" cname="gtk_clutter_scrollable_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="SetAdjustments" cname="gtk_clutter_scrollable_set_adjustments">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment*" name="h_adjust" />
+          <parameter type="GtkAdjustment*" name="v_adjust" />
+        </parameters>
+      </method>
+    </interface>
+    <interface name="Zoomable" cname="GtkClutterZoomable">
+      <class_struct cname="GtkClutterZoomableIface">
+        <field name="ParentIface" cname="parent_iface" type="GTypeInterface" />
+        <method vm="set_adjustment" />
+        <method vm="get_adjustment" />
+      </class_struct>
+      <property name="" cname="" type="ginterface" />
+      <virtual_method name="SetAdjustment" cname="set_adjustment">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment*" name="z_adjust" />
+        </parameters>
+      </virtual_method>
+      <virtual_method name="GetAdjustment" cname="get_adjustment">
+        <return-type type="GtkAdjustment*" />
+        <parameters />
+      </virtual_method>
+      <method name="GetAdjustment" cname="gtk_clutter_zoomable_get_adjustment">
+        <return-type type="GtkAdjustment*" />
+      </method>
+      <method name="GetType" cname="gtk_clutter_zoomable_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="SetAdjustment" cname="gtk_clutter_zoomable_set_adjustment">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkAdjustment*" name="z_adjust" />
+        </parameters>
+      </method>
+    </interface>
+    <object name="Embed" cname="GtkClutterEmbed" parent="GtkContainer">
+      <class_struct cname="GtkClutterEmbedClass">
+        <field name="ParentClass" cname="parent_class" type="GtkContainerClass" />
+        <method vm="_clutter_gtk_reserved1" />
+        <method vm="_clutter_gtk_reserved2" />
+        <method vm="_clutter_gtk_reserved3" />
+        <method vm="_clutter_gtk_reserved4" />
+        <method vm="_clutter_gtk_reserved5" />
+        <method vm="_clutter_gtk_reserved6" />
+      </class_struct>
+      <field name="Priv" cname="priv" type="GtkClutterEmbedPrivate*" />
+      <virtual_method name="ClutterGtkReserved1" cname="_clutter_gtk_reserved1" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="ClutterGtkReserved2" cname="_clutter_gtk_reserved2" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="ClutterGtkReserved3" cname="_clutter_gtk_reserved3" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="ClutterGtkReserved4" cname="_clutter_gtk_reserved4" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="ClutterGtkReserved5" cname="_clutter_gtk_reserved5" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="ClutterGtkReserved6" cname="_clutter_gtk_reserved6" shared="true" padding="true">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="GetStage" cname="gtk_clutter_embed_get_stage">
+        <return-type type="ClutterActor*" />
+      </method>
+      <method name="GetType" cname="gtk_clutter_embed_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="gtk_clutter_embed_new" />
+    </object>
+    <object name="Viewport" cname="GtkClutterViewport" parent="ClutterActor">
+      <class_struct cname="GtkClutterViewportClass">
+        <field name="ParentClass" cname="parent_class" type="ClutterActorClass" />
+      </class_struct>
+      <field name="Priv" cname="priv" type="GtkClutterViewportPrivate*" />
+      <property name="" cname="" type="class" />
+      <property name="" cname="" type="class" />
+      <implements>
+        <interface cname="ClutterContainer" />
+        <interface cname="GtkClutterScrollable" />
+        <interface cname="GtkClutterZoomable" />
+      </implements>
+      <method name="GetOrigin" cname="gtk_clutter_viewport_get_origin">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gfloat*" name="x" />
+          <parameter type="gfloat*" name="y" />
+          <parameter type="gfloat*" name="z" />
+        </parameters>
+      </method>
+      <method name="GetType" cname="gtk_clutter_viewport_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="gtk_clutter_viewport_new">
+        <parameters>
+          <parameter type="GtkAdjustment*" name="h_adjust" />
+          <parameter type="GtkAdjustment*" name="v_adjust" />
+          <parameter type="GtkAdjustment*" name="z_adjust" />
+        </parameters>
+      </constructor>
+    </object>
+  </namespace>
+</api>
