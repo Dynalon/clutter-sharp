@@ -1,4 +1,7 @@
 assemblydir = $(prefix)/lib/clutter-sharp
+READLINK="../readlink-osx"
+#READLINK="readlink -e"
+
 assembly_DATA = \
 	glib-sharp.dll \
 	glib-sharp.dll.config
@@ -7,7 +10,6 @@ assembly_DATA = \
 
 all: patch-glib
 
-patch-glib: patch.dll
 	monodis glib-sharp.dll | awk -v self=$(srcdir)/apply-patch.awk \
 		-v mode=1 -f $(srcdir)/apply-patch.awk > glib-sharp.il
 	ilasm /dll /output:glib-sharp.dll glib-sharp.il
@@ -20,7 +22,7 @@ patch.dll: patch.cs glib-sharp.dll
 	@for lib in $(GTKSHARP_LIBS); do \
 		case "$$lib" in *$@*) \
 			echo "Copying $${lib:3}"; \
-			cp `readlink -e $${lib:3}`{,.config} . ;; \
+			cp `$(READLINK) $${lib:3}`{,.config} . ;; \
 		esac; \
 	done
 
